@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    }
+
+    body {
+        background-image: url("image/image3.png"); 
+        margin:0;
+        text-align: center;
+        padding: 20px;
+        padding-top: 20px;
+        line-height: 20px;
+
+    }
+    h1.heading {
+        font-family: seaford, sans-serif;
+        font-weight: bold;
+        color: #0e0546;
+        padding-bottom: 0px;
+        font-size: 50px;
+    }
+
+    h1 {
+        font-family: Old English Text MT, sans-serif;
+        font-weight: 900;
+        color: black;
+    }
+    
+    span.a {
+        font-family: Bell MT,  sans-serif;
+        font-size: 30px;
+        display: block; 
+        color:black; 
+        font-weight: 800;
+    }
+    div.image {
+        content-visibility: hidden;
+        padding: 80px;
+    }
+    hr {
+       border: 1px solid gray;
+       width: 70%;
+       display: flex;
+       margin-right: 0px;
+       margin-bottom: 0px;
+    }
+    p.a {
+        font-size: 30px;
+        font-family: Brush Script MT, sans-serif;
+        font-weight: bold;
+        padding-bottom: 60px;
+        margin-top: 5px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 60px 60px;
+    }
+      
+    .flex-container > div {
+        width: 500px;
+        margin-top: 0px;
+        text-align: right;
+    }
+
+    h6.a {
+        font-family: corbel, sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        margin-top: 100px;
+        line-height: 0px;
+        color: black;
+    }
+    p.b {
+        font-family:Britannic Bold, Elephant, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 450px;
+    }
+    .pagination {
+        display: inline-block;
+        margin: 50px;
+        font-weight: 500;
+    }
+    .pagination a {
+        text-decoration: none;
+        color: black;
+        padding: 8px 16px;
+    }
+    .pagination a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+   
